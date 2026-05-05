@@ -14,7 +14,7 @@ import nutricionImg from "@/assets/nutricion.jpg";
 import suplementosImg from "@/assets/suplementos.jpg";
 import ctaImg from "@/assets/gym-3.png";
 import logoImg from "@/assets/logo.png";
-import { useReveal } from "@/hooks/use-reveal";
+import { useReveal } from "@/hooks/use-reveal.tsx";
 
 export const Route = createFileRoute("/")({
   head: () => ({
